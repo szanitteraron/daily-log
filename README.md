@@ -20,3 +20,6 @@ python3 src/build_projects.py
 python3 src/build_day.py --personal ../personal-linkedin-writing --out ../daily-log/dist/day.html
 ```
 Publikálás: Artifact publish, `url` = a fenti Mai nap link, capabilities nélkül (a tárolt deklaráció megmarad).
+
+## Publikálás (D019)
+Ez a lap a `lb-product-cockpit` közös sablonjából épül. Publikálni csak commit és push után szabad, és sablonváltozásnál mindhárom artifactot (LB, Personal, Mai nap) újra kell építeni. Részletek: lb-product-cockpit `AGENTS.md`, „Publikálás: előbb repó, aztán artifact”.
